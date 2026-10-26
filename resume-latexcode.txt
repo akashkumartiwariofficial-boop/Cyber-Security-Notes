@@ -1,0 +1,99 @@
+\documentclass[11pt]{article}
+
+% ---------- Packages ----------
+\usepackage[a4paper,margin=0.7in]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+
+% ---------- Formatting ----------
+\pagenumbering{gobble}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{4pt}
+
+\setlist[itemize]{leftmargin=*, noitemsep, topsep=2pt}
+
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{6pt}{4pt}
+
+% ---------- Document ----------
+\begin{document}
+
+% ===== Header =====
+\begin{center}
+{\LARGE \textbf{YOUR NAME HERE}}\\
+City, Country \;|\; your.email@example.com \;|\; +91-XXXXXXXXXX \;|\;
+\href{https://linkedin.com/in/yourprofile}{LinkedIn} \;|\;
+\href{https://github.com/yourprofile}{GitHub}
+\end{center}
+
+% ===== Summary =====
+\section*{Professional Summary}
+
+Cybersecurity student with hands-on lab experience in SOC operations, network analysis, attack simulation,
+and digital forensics. Actively building practical skills through security labs and projects. Seeking an
+entry-level SOC Analyst / VAPT role.
+
+% ===== Skills =====
+\section*{Technical Skills}
+
+\textbf{Domains:} SOC Operations, Incident Response, Vulnerability Assessment, Digital Forensics\\
+\textbf{Security Tools:} SIEM, EDR, IDS, Packet Analysis Tools, Vulnerability Scanners\\
+\textbf{Networking:} TCP/IP, DNS, HTTP/HTTPS, Firewalls\\
+\textbf{Frameworks:} MITRE ATT\&CK, OWASP Top 10\\
+\textbf{Programming/Scripting:} Python, Bash
+
+% ===== Projects =====
+\section*{Academic Projects \& Labs}
+
+\textbf{Virtual SOC Lab}
+\begin{itemize}
+\item Built virtual SOC environment with centralized log collection from Windows and Linux hosts.
+\item Created detection dashboards and investigated simulated alerts.
+\item Documented incident response workflow from detection to containment.
+\end{itemize}
+
+\textbf{Cyber Attack Simulation}
+\begin{itemize}
+\item Performed reconnaissance, exploitation, and controlled data exfiltration in lab setup.
+\item Applied security hardening and validated remediation effectiveness.
+\end{itemize}
+
+\textbf{Network Packet Analysis}
+\begin{itemize}
+\item Captured and analyzed PCAP files to identify anomalous traffic patterns.
+\item Produced investigation notes with remediation recommendations.
+\end{itemize}
+
+\textbf{Memory Forensics}
+\begin{itemize}
+\item Analyzed memory dumps to identify malicious processes and artifacts.
+\item Built forensic timelines and summarized findings.
+\end{itemize}
+
+% ===== Education =====
+\section*{Education}
+
+\textbf{Degree Name (Cybersecurity / Computer Science)} \hfill Year -- Year\\
+University Name\\
+GPA: X.X / 10
+
+% ===== Certifications =====
+\section*{Certifications}
+
+\begin{itemize}
+\item Certification Name – Provider
+\item Certification Name – Provider
+\item Certification Name – Provider
+\end{itemize}
+
+% ===== Additional =====
+\section*{Additional}
+
+\begin{itemize}
+\item Regular hands-on practice via security labs and CTF challenges.
+\item Built personal portfolio website and GitHub project repository.
+\item Strong interest in SOC operations, threat hunting, and incident response.
+\end{itemize}
+
+\end{document}
